@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admissions | Nandi Public English medium School</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">Nandi Public School</a>
+      <button class="hamburger">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="academics.html">Academics</a>
+        <!-- <a href="admissions.html">Admissions</a> -->
+        <a href="teachers.html">Teachers</a>
+        <a href="activities.html">Activities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="min-height: 50vh; padding-top: 120px;">
+    <div class="container text-center reveal">
+      <h1>Admissions Open</h1>
+      <p>Join the Nandi Public School family today.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid grid-2">
+      <div class="reveal">
+        <h2>Admission Process</h2>
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false">Step 1: Application <span>+</span></button>
+          <div class="accordion-content">
+            <p>Submit the online enquiry form below to start.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false">Step 2: Campus Visit <span>+</span></button>
+          <div class="accordion-content">
+            <p>We will schedule a campus tour for parents and child.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false">Step 3: Enrollment <span>+</span></button>
+          <div class="accordion-content">
+            <p>Submit required documents (Birth Certificate, Photos).</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <h2>Admission Enquiry</h2>
+        <div class="form-success">Thank you! Your enquiry has been submitted.</div>
+        <form class="validate-form" novalidate>
+          <div class="form-group">
+            <label class="form-label">Parent Name *</label>
+            <input type="text" class="form-control" required>
+            <div class="form-error">This field is required.</div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address *</label>
+            <input type="email" class="form-control" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <div class="form-error">Please enter a valid email.</div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone Number *</label>
+            <input type="tel" class="form-control" required>
+            <div class="form-error">Phone number is required.</div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+          <p style="font-size: 0.8rem; margin-top: 1rem;">* Frontend demo form only.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+   <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Nandi Public School</h4>
+          <p>Providing holistic education for a brighter future.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <ul>
+            <li>Maski, Karnataka 584124</li>
+            <li>Phone: +91 8123445642</li>
+            <li>Email: info@nandipublic.edu</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Nandi Public English medium School. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

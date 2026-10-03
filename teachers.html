@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teachers | Nandi Public English medium School</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">Nandi Public School</a>
+      <button class="hamburger">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="academics.html">Academics</a>
+        <!-- <a href="admissions.html">Admissions</a> -->
+        <a href="teachers.html">Teachers</a>
+        <a href="activities.html">Activities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="min-height: 40vh; padding-top: 120px;">
+    <div class="container text-center reveal">
+      <h1>Our Expert Teachers</h1>
+      <p>Dedicated professionals shaping young minds.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container reveal">
+      <div style="display: flex; gap: 1rem; margin-bottom: 2rem; justify-content: center; flex-wrap: wrap;">
+        <!-- <input type="text" id="teacher-search" class="form-control" placeholder="Search teacher name..."
+          style="max-width: 300px;"> -->
+        <select id="teacher-category" class="form-control" style="max-width: 200px;">
+          <option value="all">All Subjects</option>
+          <option value="math">Mathematics</option>
+          <option value="science">Science</option>
+          <option value="language">Language</option>
+        </select>
+      </div>
+
+      <div class="grid grid-3" id="teachers-grid">
+        <div class="card teacher-card" data-name="sarah smith" data-subject="math">
+          <div style="height:200px; background:#e2e8f0; margin-bottom:1rem; border-radius:var(--radius);">
+            <img src="./images/teachers/teacher1.avif" alt="Sarah Smith">
+          </div>
+          <h3>Teacher Name</h3>
+          <p>Mathematics Teacher</p>
+        </div>
+        <div class="card teacher-card" data-name="john doe" data-subject="science">
+          <div style="height:200px; background:#e2e8f0; margin-bottom:1rem; border-radius:var(--radius);">
+            <img src="./images/teachers/teacher2.avif" alt="John Doe">
+          </div>
+          <h3>Teacher Name</h3>
+          <p>Science Teacher</p>
+        </div>
+        <div class="card teacher-card" data-name="emily chen" data-subject="language">
+          <div style="height:200px; background:#e2e8f0; margin-bottom:1rem; border-radius:var(--radius);">
+            <img src="./images/teachers/teacher3.avif" alt="Emily Chen">
+          </div>
+          <h3>Teacher Name</h3>
+          <p>English Teacher</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Nandi Public School</h4>
+          <p>Providing holistic education for a brighter future.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <ul>
+            <li>Maski, Karnataka 584124</li>
+            <li>Phone: +91 8123445642</li>
+            <li>Email: info@nandipublic.edu</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Nandi Public English medium School. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

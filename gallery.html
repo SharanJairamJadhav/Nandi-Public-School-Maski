@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Nandi Public English medium School</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">Nandi Public School</a>
+      <button class="hamburger">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="academics.html">Academics</a>
+        <!-- <a href="admissions.html">Admissions</a> -->
+        <a href="teachers.html">Teachers</a>
+        <a href="activities.html">Activities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section" style="padding-top: 120px;">
+    <div class="container reveal">
+      <h1 class="text-center">School Gallery</h1>
+
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="classroom">Classroom</button>
+        <button class="filter-btn" data-filter="sports">Sports</button>
+      </div>
+
+      <div class="grid grid-3">
+        <!-- Using a generic placeholder image API for the visual representation in demo -->
+        <div class="gallery-item" data-category="classroom"><img
+            src="./images/classroom1.jpg" alt="Class"></div>
+        <div class="gallery-item" data-category="sports"><img
+            src="./images/sports.jpg" alt="Sports"></div>
+        <div class="gallery-item" data-category="classroom"><img
+            src="./images/classroom2.jpg" alt="Class"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous">&#10094;</button>
+    <img id="lightbox-img" src="" alt="Enlarged view">
+    <button class="lightbox-next" aria-label="Next">&#10095;</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Nandi Public School</h4>
+          <p>Providing holistic education for a brighter future.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <ul>
+            <li>Maski, Karnataka 584124</li>
+            <li>Phone: +91 8123445642</li>
+            <li>Email: info@nandipublic.edu</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Nandi Public English medium School. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
